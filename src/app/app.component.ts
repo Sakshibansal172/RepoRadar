@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RepoRadar';
+  isSearchStarted: boolean = false;
+  
+  startSearch() {
+    this.isSearchStarted = !this.isSearchStarted;
+  }
 }
