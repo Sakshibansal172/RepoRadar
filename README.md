@@ -1,27 +1,54 @@
-# RepoRadar
+# RepoRadar 🎯
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+A modern web application built with Angular that helps you discover trending GitHub repositories. Stay up-to-date with the most popular open-source projects and find interesting repositories to contribute to or learn from.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 📈 View trending GitHub repositories from the last 30 days
+- ⭐ Sort repositories by stars to find the most popular ones
+- 📊 Detailed repository information including:
+  - Star count, forks, and open issues
+  - Repository description and primary language
+  - Owner information and links
+  - Creation and last update dates
+- 🎨 Beautiful and responsive UI built with Tailwind CSS
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+- Node.js (Latest LTS version recommended)
+- npm (comes with Node.js)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Development
 
-## Running end-to-end tests
+Run the development server:
+```bash
+npm run start
+```
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Building for Production
 
-## Further help
+Build the project for production:
+```bash
+npm run build
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+The build artifacts will be stored in the `dist/` directory.
+
+### Running Tests
+
+Execute the unit tests:
+```bash
+npm test
+```
+
