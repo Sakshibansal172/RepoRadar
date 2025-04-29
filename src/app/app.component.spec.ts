@@ -26,10 +26,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('RepoRadar');
   });
 
-  it('should render title', () => {
+  it('should render title', () => {    
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, RepoRadar');
+    expect(compiled.querySelector('h1')?.textContent).toContain('GitHub Trending Repos');
   });
 });
